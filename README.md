@@ -248,3 +248,5 @@ https://en.wikipedia.org/wiki/Kernel-level_anti-cheat
 https://es.news.hada.io/topic?id=27539 
 
 https://esgeeks.com/como-funcionan-sistemas-antitrampas/
+
+https://www.crowdstrike.com/wp-content/uploads/2024/07/CrowdStrike-PIR-Executive-Summary.pdf
