@@ -1,0 +1,65 @@
+{
+  "url": "https://www.banpresto.es",
+  "status": 200,
+  "cabeceras_recibidas": {
+    "Date": "Wed, 14 Oct 2026 17:33:10 GMT",
+    "Server": "Apache",
+    "X-Frame-Options": "SAMEORIGIN, SAMEORIGIN",
+    "X-Content-Type-Options": "nosniff",
+    "Referrer-Policy": "no-referrer-when-downgrade",
+    "Permissions-Policy": "geolocation=(), microphone=(), camera=(), payment=(self), usb=()",
+    "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https: wss: blob:; media-src 'self' https: blob:; frame-src 'self' https: blob:; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https:; object-src 'none'; worker-src 'self' blob:; upgrade-insecure-requests",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Cross-Origin-Resource-Policy": "cross-origin",
+    "Strict-Transport-Security": "max-age=31536000",
+    "Last-Modified": "Wed, 14 Oct 2026 17:08:39 GMT",
+    "Vary": "Accept-Encoding",
+    "X-XSS-Protection": "1; mode=block",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked",
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "seguridad": {
+    "Strict-Transport-Security": {
+      "presente": true,
+      "valor": "max-age=31536000",
+      "funcion": "Exige HTTPS en futuras conexiones"
+    },
+    "Content-Security-Policy": {
+      "presente": true,
+      "valor": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https:; style-src 'self' 'unsafe-inline' https:; img-src 'self' data: https: blob:; font-src 'self' data: https:; connect-src 'self' https: wss: blob:; media-src 'self' https: blob:; frame-src 'self' https: blob:; frame-ancestors 'self'; base-uri 'self'; form-action 'self' https:; object-src 'none'; worker-src 'self' blob:; upgrade-insecure-requests",
+      "funcion": "Restringe fuentes de contenido y scripts"
+    },
+    "X-Content-Type-Options": {
+      "presente": true,
+      "valor": "nosniff",
+      "funcion": "Evita interpretar tipos MIME inesperados"
+    },
+    "Referrer-Policy": {
+      "presente": true,
+      "valor": "no-referrer-when-downgrade",
+      "funcion": "Controla la información enviada en Referer"
+    },
+    "Permissions-Policy": {
+      "presente": true,
+      "valor": "geolocation=(), microphone=(), camera=(), payment=(self), usb=()",
+      "funcion": "Limita funciones del navegador"
+    },
+    "X-Frame-Options": {
+      "presente": true,
+      "valor": "SAMEORIGIN, SAMEORIGIN",
+      "funcion": "Controla el uso de marcos (alternativa: CSP frame-ancestors)"
+    },
+    "Cross-Origin-Opener-Policy": {
+      "presente": true,
+      "valor": "same-origin-allow-popups",
+      "funcion": "Aísla contextos de navegación"
+    },
+    "Cross-Origin-Resource-Policy": {
+      "presente": true,
+      "valor": "cross-origin",
+      "funcion": "Controla cargas de recursos entre orígenes"
+    }
+  },
+  "nota": "La presencia no garantiza una configuración segura. HSTS solo tiene efecto por HTTPS; CSP frame-ancestors puede sustituir X-Frame-Options."
+}
